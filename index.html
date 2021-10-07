@@ -1,0 +1,164 @@
+<html>
+
+<head>
+  <title>Lens And Mobile Net</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <div class="col-xs-12 header_div">
+      <h2>Lens vs Mobile Net
+        <img src="logo.gif">
+      </h2>
+    </div>
+    <br><br>
+  
+
+  <ol>
+    <div class="text_image_and_result content content">
+      <li>
+        <b>Test Image - <img src="Book.jpg" class="img-responsive" id="TI"></b>
+      </li>
+      <h5>Output On <b>Google Lens</b> -
+        <span>Canvas</span>
+      </h5>
+
+      <h5>Output On <b>MobileNet Model</b> -
+        <span id="mobileNet"></span>
+      </h5>
+
+      <div class="bob3">
+        <center>
+        <h4>Result -</h4>
+        <hr>
+        <h4>Google Lens</h4>
+      </center>
+      </div>
+    </div>
+
+    <div class="text_image_and_result content">
+      <li>
+        <b>Test Image - <img src="Bottle.jpg" class="img-responsive" id="TI2"></b>
+      </li>
+      <h5>Output On <b>Google Lens</b> -
+        <span>Stainless steel water bottle</span>
+      </h5>
+
+      <h5>Output On <b>MobileNet Model</b> -
+        <span id="mobileNet2"></span>
+      </h5>
+
+      <div class="bob3">
+        <center>
+        <h4>Result -</h4>
+        <hr>
+        <h4>Google Lens</h4>
+      </center>
+      </div>
+    </div>
+
+    <div class="text_image_and_result content">
+      <li>
+        <b>Test Image - <img src="Comb.jpg" class="img-responsive" id="TI3"></b>
+      </li>
+      <h5>Output On <b>Google Lens</b> -
+        <span>Detangling Hair Comb</span>
+      </h5>
+
+      <h5>Output On <b>MobileNet Model</b> -
+        <span id="mobileNet3"></span>
+      </h5>
+
+      <div class="bob3">
+        <center>
+        <h4>Result -</h4>
+        <hr>
+        <h4>Both</h4>
+      </center>
+      </div>
+    </div>
+
+    <div class="text_image_and_result content">
+      <li>
+        <b>Test Image - <img src="Laptop.jpg" class="img-responsive" id="TI4"></b>
+      </li>
+      <h5>Output On <b>Google Lens</b> -
+        <span>ThinkPad X1 Series</span>
+      </h5>
+
+      <h5>Output On <b>MobileNet Model</b> -
+        <span id="mobileNet4"></span>
+      </h5>
+
+      <div class="bob3">
+        <center>
+        <h4>Result -</h4>
+        <hr>
+        <h4>Google Lens</h4>
+      </center>
+      </div>
+    </div>
+
+    <div class="text_image_and_result content">
+      <li>
+        <b>Test Image - <img src="Mobile.jpg" class="img-responsive" id="TI5"></b>
+      </li>
+      <h5>Output On <b>Google Lens</b> -
+        <span>Xiaomi Redmi 8A</span>
+      </h5>
+
+      <h5>Output On <b>MobileNet Model</b> -
+        <span id="mobileNet5"></span>
+      </h5>
+
+      <div class="bob3">
+        <center>
+        <h4>Result -</h4>
+        <hr>
+        <h4>Google Lens</h4>
+      </center>
+      </div>
+    </div>
+
+    <div class="text_image_and_result content">
+      <li>
+        <b>Test Image - <img src="Pen.jpg" class="img-responsive" id="TI6"></b>
+      </li>
+      <h5>Output On <b>Google Lens</b> -
+        <span>Cello Gripper Ball Pen</span>
+      </h5>
+
+      <h5>Output On <b>MobileNet Model</b> -
+        <span id="mobileNet6"></span>
+      </h5>
+
+      <div class="bob3">
+        <center>
+        <h4>Result -</h4>
+        <hr>
+        <h4>Google Lens</h4>
+      </center>
+      </div>
+    </div>
+
+<center>
+  <div class="col-xs-12 resultdiv">
+  <h4 class="col-sm-6 col-xs-12">
+    <img src="blub.gif">
+    <span id="object_name">I have Tested 6 images where Google Lens had predicted All models most acurately and Mobile Net had predicted only some acurately</span>
+  </h4>
+</div>
+</center>
+  <script src="main.js"></script>
+</body>
+
+</html>
